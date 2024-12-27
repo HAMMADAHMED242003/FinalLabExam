@@ -13,6 +13,8 @@ connectDB();
 
 app.use(bodyParser.json());
 
+
+
 // API Routes
 app.use('/attractions', attractionRoutes);
 app.use('/visitors', visitorRoutes);
